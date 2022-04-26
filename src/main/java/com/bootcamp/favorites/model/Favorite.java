@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(value="channels")
+@Document(value="favorite")
 public class Favorite {
 
     private String id;
